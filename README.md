@@ -16,4 +16,4 @@ When changes are pushed to `main` or `master`, the workflow deploys the static s
 
 `DineDrive (2)/DineDrive`
 
-After merging, enable **GitHub Pages** in repository settings (Build and deployment: **GitHub Actions**) if it is not already enabled.
+If GitHub Pages is not already enabled, the deployment workflow attempts to enable it automatically.
