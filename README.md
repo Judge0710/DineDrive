@@ -1,8 +1,19 @@
-DineDrive 
+# DineDrive
 
-How to Run Dine Drive on your PC
+## Run locally
 
-1. Download the necessary files from the provided source.
-2. Extract the contents of the downloaded ZIP archive.
-4. Open your preferred code editor (e.g., Visual Studio Code) and navigate to the main project folder, typically named "Dinedrive."
-5. Once the project folder is open in your code editor, launch the live server by clicking on the appropriate option or using the corresponding keyboard shortcut.
+1. Open the repository in your editor.
+2. Serve `/home/runner/work/DineDrive/DineDrive/DineDrive (2)/DineDrive` with any static server (for example, VS Code Live Server).
+3. Open `index.html`.
+
+## Hosting (GitHub Pages)
+
+This repository includes a GitHub Actions workflow at:
+
+`/home/runner/work/DineDrive/DineDrive/.github/workflows/deploy-pages.yml`
+
+When changes are pushed to `main` or `master`, the workflow deploys the static site from:
+
+`/home/runner/work/DineDrive/DineDrive/DineDrive (2)/DineDrive`
+
+After merging, enable **GitHub Pages** in repository settings (Build and deployment: **GitHub Actions**) if it is not already enabled.
